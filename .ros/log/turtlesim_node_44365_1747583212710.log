@@ -1,0 +1,3 @@
+[INFO] [1747583212.720382162] [turtlesim]: Starting turtlesim with node name /turtlesim
+[INFO] [1747583212.722740834] [turtlesim]: Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
+[INFO] [1747583293.264505900] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,11 @@
+2025-05-18 18:13:19.474 [info] 
+
+
+
+
+2025-05-18 18:13:19.482 [info] Extension host agent started.
+2025-05-18 18:13:19.685 [info] [127.0.0.1][506e7738][ManagementConnection] New connection established.
+2025-05-18 18:13:19.696 [info] ComputeTargetPlatform: linux-x64
+2025-05-18 18:13:19.782 [info] [127.0.0.1][a637a3e3][ExtensionHostConnection] New connection established.
+2025-05-18 18:13:20.337 [info] [127.0.0.1][a637a3e3][ExtensionHostConnection] <51546> Launched Extension Host Process.
+2025-05-18 18:13:22.864 [info] ComputeTargetPlatform: linux-x64

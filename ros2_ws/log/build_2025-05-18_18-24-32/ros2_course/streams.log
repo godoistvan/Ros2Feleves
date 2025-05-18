@@ -1,0 +1,40 @@
+[0.370s] Invoking command in '/home/godoistvan/ros2_ws/build/ros2_course': PYTHONPATH=/home/godoistvan/ros2_ws/build/ros2_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/godoistvan/ros2_ws/build/ros2_course/build
+[0.518s] running develop
+[0.606s] Removing /home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)
+[0.623s] Invoked command in '/home/godoistvan/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/godoistvan/ros2_ws/build/ros2_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/godoistvan/ros2_ws/build/ros2_course/build
+[0.627s] Invoking command in '/home/godoistvan/ros2_ws/src/ros2_course': PYTHONPATH=/home/godoistvan/ros2_ws/build/ros2_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/godoistvan/ros2_ws/build/ros2_course/build install --record /home/godoistvan/ros2_ws/build/ros2_course/install.log --single-version-externally-managed install_data --force
+[0.761s] running egg_info
+[0.761s] writing ../../build/ros2_course/ros2_course.egg-info/PKG-INFO
+[0.762s] writing dependency_links to ../../build/ros2_course/ros2_course.egg-info/dependency_links.txt
+[0.762s] writing entry points to ../../build/ros2_course/ros2_course.egg-info/entry_points.txt
+[0.762s] writing requirements to ../../build/ros2_course/ros2_course.egg-info/requires.txt
+[0.762s] writing top-level names to ../../build/ros2_course/ros2_course.egg-info/top_level.txt
+[0.763s] reading manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[0.763s] writing manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[0.764s] running build
+[0.764s] running build_py
+[0.764s] creating /home/godoistvan/ros2_ws/build/ros2_course/build
+[0.764s] creating /home/godoistvan/ros2_ws/build/ros2_course/build/lib
+[0.764s] creating /home/godoistvan/ros2_ws/build/ros2_course/build/lib/ros2_course
+[0.764s] copying ros2_course/hello.py -> /home/godoistvan/ros2_ws/build/ros2_course/build/lib/ros2_course
+[0.764s] copying ros2_course/feleves.py -> /home/godoistvan/ros2_ws/build/ros2_course/build/lib/ros2_course
+[0.764s] copying ros2_course/__init__.py -> /home/godoistvan/ros2_ws/build/ros2_course/build/lib/ros2_course
+[0.764s] running install
+[0.765s] running install_lib
+[0.765s] creating /home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[0.765s] copying /home/godoistvan/ros2_ws/build/ros2_course/build/lib/ros2_course/hello.py -> /home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[0.765s] copying /home/godoistvan/ros2_ws/build/ros2_course/build/lib/ros2_course/feleves.py -> /home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[0.766s] copying /home/godoistvan/ros2_ws/build/ros2_course/build/lib/ros2_course/__init__.py -> /home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[0.766s] byte-compiling /home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/hello.py to hello.cpython-310.pyc
+[0.766s] byte-compiling /home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/feleves.py to feleves.cpython-310.pyc
+[0.767s] byte-compiling /home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/__init__.py to __init__.cpython-310.pyc
+[0.767s] running install_data
+[0.767s] copying resource/ros2_course -> /home/godoistvan/ros2_ws/install/ros2_course/share/ament_index/resource_index/packages
+[0.767s] copying package.xml -> /home/godoistvan/ros2_ws/install/ros2_course/share/ros2_course
+[0.767s] running install_egg_info
+[0.768s] Copying ../../build/ros2_course/ros2_course.egg-info to /home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course-0.0.0-py3.10.egg-info
+[0.769s] running install_scripts
+[0.782s] Installing hello script to /home/godoistvan/ros2_ws/install/ros2_course/lib/ros2_course
+[0.782s] Installing koch_snowflake script to /home/godoistvan/ros2_ws/install/ros2_course/lib/ros2_course
+[0.783s] writing list of installed files to '/home/godoistvan/ros2_ws/build/ros2_course/install.log'
+[0.796s] Invoked command in '/home/godoistvan/ros2_ws/src/ros2_course' returned '0': PYTHONPATH=/home/godoistvan/ros2_ws/build/ros2_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/godoistvan/ros2_ws/build/ros2_course/build install --record /home/godoistvan/ros2_ws/build/ros2_course/install.log --single-version-externally-managed install_data --force

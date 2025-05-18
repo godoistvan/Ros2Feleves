@@ -1,0 +1,6 @@
+[INFO] [1747585032.164413378] [turtlesim]: Starting turtlesim with node name /turtlesim
+[INFO] [1747585032.170002598] [turtlesim]: Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
+[INFO] [1747585135.677376995] [turtlesim]: Resetting turtlesim.
+[INFO] [1747585135.682585592] [turtlesim]: Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
+[WARN] [1747585135.785943577] [turtlesim.rclcpp]: failed to send response to /reset (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[INFO] [1747585152.567784504] [rclcpp]: signal_handler(signum=2)

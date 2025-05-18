@@ -1,0 +1,25 @@
+[0.447s] Invoking command in '/home/godoistvan/ros2_ws/build/ros2_course': PYTHONPATH=/home/godoistvan/ros2_ws/build/ros2_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/godoistvan/ros2_ws/build/ros2_course/build --no-deps symlink_data
+[0.595s] running develop
+[0.675s] running egg_info
+[0.675s] creating ros2_course.egg-info
+[0.675s] writing ros2_course.egg-info/PKG-INFO
+[0.676s] writing dependency_links to ros2_course.egg-info/dependency_links.txt
+[0.676s] writing entry points to ros2_course.egg-info/entry_points.txt
+[0.676s] writing requirements to ros2_course.egg-info/requires.txt
+[0.676s] writing top-level names to ros2_course.egg-info/top_level.txt
+[0.677s] writing manifest file 'ros2_course.egg-info/SOURCES.txt'
+[0.677s] reading manifest file 'ros2_course.egg-info/SOURCES.txt'
+[0.678s] writing manifest file 'ros2_course.egg-info/SOURCES.txt'
+[0.679s] running build_ext
+[0.679s] Creating /home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)
+[0.679s] Installing hello script to /home/godoistvan/ros2_ws/install/ros2_course/lib/ros2_course
+[0.679s] Installing koch_snowflake script to /home/godoistvan/ros2_ws/install/ros2_course/lib/ros2_course
+[0.679s] 
+[0.679s] Installed /home/godoistvan/ros2_ws/build/ros2_course
+[0.680s] running symlink_data
+[0.680s] creating /home/godoistvan/ros2_ws/install/ros2_course/share/ament_index
+[0.680s] creating /home/godoistvan/ros2_ws/install/ros2_course/share/ament_index/resource_index
+[0.680s] creating /home/godoistvan/ros2_ws/install/ros2_course/share/ament_index/resource_index/packages
+[0.680s] symbolically linking /home/godoistvan/ros2_ws/build/ros2_course/resource/ros2_course -> /home/godoistvan/ros2_ws/install/ros2_course/share/ament_index/resource_index/packages
+[0.680s] symbolically linking /home/godoistvan/ros2_ws/build/ros2_course/package.xml -> /home/godoistvan/ros2_ws/install/ros2_course/share/ros2_course
+[0.696s] Invoked command in '/home/godoistvan/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/godoistvan/ros2_ws/build/ros2_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/godoistvan/ros2_ws/build/ros2_course/build --no-deps symlink_data

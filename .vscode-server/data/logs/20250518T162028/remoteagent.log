@@ -13,3 +13,6 @@
 2025-05-18 16:52:53.990 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
 2025-05-18 16:55:42.371 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
 2025-05-18 16:55:42.470 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-05-18 16:59:47.596 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-05-18 18:12:40.172 [info] [127.0.0.1][8da9a8e5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-18 18:12:40.254 [info] [127.0.0.1][47b8bd0b][ExtensionHostConnection] <10919> Extension Host Process exited with code: 0, signal: null.

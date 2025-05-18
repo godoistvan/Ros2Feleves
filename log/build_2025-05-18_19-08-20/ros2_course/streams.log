@@ -1,0 +1,18 @@
+[0.355s] Invoking command in '/home/godoistvan/build/ros2_course': PYTHONPATH=/home/godoistvan/build/ros2_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godoistvan/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/godoistvan/build/ros2_course/build --no-deps symlink_data
+[0.505s] running develop
+[0.592s] running egg_info
+[0.592s] writing ros2_course.egg-info/PKG-INFO
+[0.592s] writing dependency_links to ros2_course.egg-info/dependency_links.txt
+[0.592s] writing entry points to ros2_course.egg-info/entry_points.txt
+[0.592s] writing requirements to ros2_course.egg-info/requires.txt
+[0.592s] writing top-level names to ros2_course.egg-info/top_level.txt
+[0.594s] reading manifest file 'ros2_course.egg-info/SOURCES.txt'
+[0.594s] writing manifest file 'ros2_course.egg-info/SOURCES.txt'
+[0.595s] running build_ext
+[0.595s] Creating /home/godoistvan/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)
+[0.596s] Installing hello script to /home/godoistvan/install/ros2_course/lib/ros2_course
+[0.596s] Installing koch_snowflake script to /home/godoistvan/install/ros2_course/lib/ros2_course
+[0.596s] 
+[0.596s] Installed /home/godoistvan/build/ros2_course
+[0.596s] running symlink_data
+[0.612s] Invoked command in '/home/godoistvan/build/ros2_course' returned '0': PYTHONPATH=/home/godoistvan/build/ros2_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godoistvan/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/godoistvan/build/ros2_course/build --no-deps symlink_data

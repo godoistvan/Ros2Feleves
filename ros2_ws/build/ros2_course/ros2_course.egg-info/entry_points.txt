@@ -1,0 +1,4 @@
+[console_scripts]
+hello = ros2_course.hello:main
+koch_snowflake = ros2_course.feleves:main
+

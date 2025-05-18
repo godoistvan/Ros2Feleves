@@ -1,0 +1,47 @@
+[DEBUG] [1747587104.986119070] [rcl]: Initializing node 'koch_snowflake' in namespace ''
+[DEBUG] [1747587104.986153339] [rcl]: Using domain ID of '0'
+[DEBUG] [1747587104.990862185] [rcl]: Initializing publisher for topic name '/rosout'
+[DEBUG] [1747587104.990898191] [rcl]: Expanded and remapped topic name '/rosout'
+[DEBUG] [1747587104.991657015] [rcl]: Publisher initialized
+[DEBUG] [1747587104.991692593] [rcl]: Node initialized
+[DEBUG] [1747587105.011183886] [rcl]: Initializing publisher for topic name '/parameter_events'
+[DEBUG] [1747587105.011228142] [rcl]: Expanded and remapped topic name '/parameter_events'
+[DEBUG] [1747587105.011640492] [rcl]: Publisher initialized
+[DEBUG] [1747587105.012110503] [rcl]: Initializing service for service name 'koch_snowflake/describe_parameters'
+[DEBUG] [1747587105.012134208] [rcl]: Expanded and remapped service name '/koch_snowflake/describe_parameters'
+[DEBUG] [1747587105.012365112] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1747587105.012463477] [rmw_fastrtps_cpp]: Sub Topic rq/koch_snowflake/describe_parametersRequest
+[DEBUG] [1747587105.012485172] [rmw_fastrtps_cpp]: Pub Topic rr/koch_snowflake/describe_parametersReply
+[DEBUG] [1747587105.012487469] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1747587105.012558026] [rcl]: Service initialized
+[DEBUG] [1747587105.012653608] [rcl]: Initializing service for service name 'koch_snowflake/get_parameters'
+[DEBUG] [1747587105.012675421] [rcl]: Expanded and remapped service name '/koch_snowflake/get_parameters'
+[DEBUG] [1747587105.012899587] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1747587105.012914922] [rmw_fastrtps_cpp]: Sub Topic rq/koch_snowflake/get_parametersRequest
+[DEBUG] [1747587105.012926790] [rmw_fastrtps_cpp]: Pub Topic rr/koch_snowflake/get_parametersReply
+[DEBUG] [1747587105.012938774] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1747587105.013011720] [rcl]: Service initialized
+[DEBUG] [1747587105.013090666] [rcl]: Initializing service for service name 'koch_snowflake/get_parameter_types'
+[DEBUG] [1747587105.013106976] [rcl]: Expanded and remapped service name '/koch_snowflake/get_parameter_types'
+[DEBUG] [1747587105.013313016] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1747587105.013329135] [rmw_fastrtps_cpp]: Sub Topic rq/koch_snowflake/get_parameter_typesRequest
+[DEBUG] [1747587105.013331494] [rmw_fastrtps_cpp]: Pub Topic rr/koch_snowflake/get_parameter_typesReply
+[DEBUG] [1747587105.013343032] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1747587105.013413656] [rcl]: Service initialized
+[DEBUG] [1747587105.013500870] [rcl]: Initializing service for service name 'koch_snowflake/list_parameters'
+[DEBUG] [1747587105.013517822] [rcl]: Expanded and remapped service name '/koch_snowflake/list_parameters'
+[DEBUG] [1747587105.013733048] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1747587105.013747557] [rmw_fastrtps_cpp]: Sub Topic rq/koch_snowflake/list_parametersRequest
+[DEBUG] [1747587105.013749813] [rmw_fastrtps_cpp]: Pub Topic rr/koch_snowflake/list_parametersReply
+[DEBUG] [1747587105.013760699] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1747587105.013828175] [rcl]: Service initialized
+[DEBUG] [1747587105.013905496] [rcl]: Initializing service for service name 'koch_snowflake/set_parameters'
+[DEBUG] [1747587105.013920991] [rcl]: Expanded and remapped service name '/koch_snowflake/set_parameters'
+[DEBUG] [1747587105.014128205] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1747587105.014142346] [rmw_fastrtps_cpp]: Sub Topic rq/koch_snowflake/set_parametersRequest
+[DEBUG] [1747587105.014144509] [rmw_fastrtps_cpp]: Pub Topic rr/koch_snowflake/set_parametersReply
+[DEBUG] [1747587105.014156474] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1747587105.014220519] [rcl]: Service initialized
+[DEBUG] [1747587105.014293311] [rcl]: Initializing service for service name 'koch_snowflake/set_parameters_atomically'
+[DEBUG] [1747587105.014309203] [rcl]: Expanded and remapped service name '/koch_snowflake/set_parameters_atomically'
+[DEBUG] [174

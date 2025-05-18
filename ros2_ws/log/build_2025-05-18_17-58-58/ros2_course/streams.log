@@ -1,0 +1,18 @@
+[0.373s] Invoking command in '/home/godoistvan/ros2_ws/build/ros2_course': PYTHONPATH=/home/godoistvan/ros2_ws/build/ros2_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/godoistvan/ros2_ws/build/ros2_course/build --no-deps symlink_data
+[0.529s] running develop
+[0.612s] running egg_info
+[0.612s] writing ros2_course.egg-info/PKG-INFO
+[0.612s] writing dependency_links to ros2_course.egg-info/dependency_links.txt
+[0.612s] writing entry points to ros2_course.egg-info/entry_points.txt
+[0.612s] writing requirements to ros2_course.egg-info/requires.txt
+[0.612s] writing top-level names to ros2_course.egg-info/top_level.txt
+[0.614s] reading manifest file 'ros2_course.egg-info/SOURCES.txt'
+[0.614s] writing manifest file 'ros2_course.egg-info/SOURCES.txt'
+[0.615s] running build_ext
+[0.616s] Creating /home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)
+[0.616s] Installing hello script to /home/godoistvan/ros2_ws/install/ros2_course/lib/ros2_course
+[0.616s] Installing koch_snowflake script to /home/godoistvan/ros2_ws/install/ros2_course/lib/ros2_course
+[0.616s] 
+[0.617s] Installed /home/godoistvan/ros2_ws/build/ros2_course
+[0.617s] running symlink_data
+[0.633s] Invoked command in '/home/godoistvan/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/godoistvan/ros2_ws/build/ros2_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/godoistvan/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/godoistvan/ros2_ws/build/ros2_course/build --no-deps symlink_data
