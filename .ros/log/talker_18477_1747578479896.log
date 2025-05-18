@@ -1,0 +1,3 @@
+[INFO] [1747578480.942756071] [demo_node_1]: Publishing: 'Hello World: 1'
+[INFO] [1747578481.974499647] [demo_node_1]: Publishing: 'Hello World: 2'
+[INFO] [1747578481.980879116] [rclcpp]: signal_handler(signum=2)

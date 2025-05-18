@@ -1,0 +1,86 @@
+[0.058s] Invoking command in '/home/godoistvan/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/godoistvan/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client
+[1.392s] -- The C compiler identification is GNU 11.4.0
+[1.393s] -- The CXX compiler identification is GNU 11.4.0
+[1.393s] -- Detecting C compiler ABI info
+[1.393s] -- Detecting C compiler ABI info - done
+[1.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.393s] -- Detecting C compile features
+[1.393s] -- Detecting C compile features - done
+[1.393s] -- Detecting CXX compiler ABI info
+[1.393s] -- Detecting CXX compiler ABI info - done
+[1.393s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.393s] -- Detecting CXX compile features
+[1.393s] -- Detecting CXX compile features - done
+[1.394s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.394s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.394s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.394s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.394s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.394s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.394s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.394s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.394s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.394s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.394s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.394s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.395s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.148s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.289s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.289s] -- Looking for pthread.h
+[3.639s] -- Looking for pthread.h - found
+[3.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.023s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.023s] -- Found Threads: TRUE  
+[4.132s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.172s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.481s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.483s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.483s] -- Configured cppcheck include dirs: 
+[4.483s] -- Configured cppcheck exclude dirs and/or files: 
+[4.500s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.500s] -- Configured cpplint exclude dirs and/or files: 
+[4.501s] -- Added test 'lint_cmake' to check CMake code style
+[4.502s] -- Added test 'uncrustify' to check C / C++ code style
+[4.502s] -- Configured uncrustify additional arguments: 
+[4.504s] -- Added test 'xmllint' to check XML markup files
+[4.519s] -- Configuring done
+[4.612s] -- Generating done
+[4.626s] -- Build files have been written to: /home/godoistvan/ros2_ws/build/examples_rclcpp_minimal_action_client
+[4.659s] Invoked command in '/home/godoistvan/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/godoistvan/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client
+[4.660s] Invoking command in '/home/godoistvan/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/godoistvan/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j20 -l20
+[4.920s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[4.927s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[4.936s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[4.940s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[21.549s] [ 62%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[21.691s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[22.018s] [ 75%] Built target action_client_not_composable_with_feedback
+[22.084s] [ 75%] Built target action_client_not_composable_with_cancel
+[22.175s] [ 87%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[22.649s] [ 87%] Built target action_client_not_composable
+[22.737s] [100%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[23.169s] [100%] Built target action_client_member_functions
+[23.222s] Invoked command in '/home/godoistvan/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/godoistvan/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j20 -l20
+[23.227s] Invoking command in '/home/godoistvan/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/godoistvan/ros2_ws/build/examples_rclcpp_minimal_action_client
+[23.235s] -- Install configuration: ""
+[23.237s] -- Execute custom install script
+[23.239s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[23.248s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[23.271s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[23.284s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[23.290s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[23.311s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[23.340s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[23.367s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[23.394s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[23.405s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[23.434s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[23.444s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[23.470s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[23.483s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[23.494s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[23.508s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[23.519s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[23.541s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[23.553s] -- Symlinking: /home/godoistvan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[23.580s] Invoked command in '/home/godoistvan/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/godoistvan/ros2_ws/build/examples_rclcpp_minimal_action_client

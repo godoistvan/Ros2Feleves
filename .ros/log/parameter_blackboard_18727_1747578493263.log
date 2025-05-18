@@ -1,0 +1,2 @@
+[INFO] [1747578493.271057073] [demo_node_1]: Parameter blackboard node named '/demo_node_1' ready, and serving '5' parameters already!
+[INFO] [1747578493.519657482] [rclcpp]: signal_handler(signum=2)

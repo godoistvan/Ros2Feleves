@@ -1,0 +1,12 @@
+[INFO] [1747578490.280411218] [rosbag2_recorder]: Press SPACE for pausing/resuming
+[INFO] [1747578490.283075310] [rosbag2_storage]: Opened database '/tmp/tmp6j1ds8lq/test_bag/test_bag_0.db3' for READ_WRITE.
+[INFO] [1747578490.284787036] [rosbag2_recorder]: Listening for topics...
+[INFO] [1747578490.284797947] [rosbag2_recorder]: Event publisher thread: Starting
+[INFO] [1747578490.285577444] [rosbag2_recorder]: Subscribed to topic '/rosout'
+[INFO] [1747578490.285947980] [rosbag2_recorder]: Subscribed to topic '/parameter_events'
+[INFO] [1747578490.286317688] [rosbag2_recorder]: Subscribed to topic '/events/write_split'
+[INFO] [1747578490.286889780] [rosbag2_recorder]: Subscribed to topic '/chatter'
+[INFO] [1747578490.286969174] [rosbag2_recorder]: Recording...
+[INFO] [1747578493.128046454] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1747578493.128603927] [rosbag2_recorder]: Event publisher thread: Exiting
+[INFO] [1747578493.128687381] [rosbag2_recorder]: Recording stopped

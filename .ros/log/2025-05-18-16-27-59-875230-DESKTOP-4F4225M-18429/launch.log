@@ -1,0 +1,60 @@
+1747578479.8837731 [INFO] [launch]: All log files can be found below /home/godoistvan/.ros/log/2025-05-18-16-27-59-875230-DESKTOP-4F4225M-18429
+1747578479.8839154 [INFO] [launch]: Default logging verbosity is set to INFO
+1747578479.8975673 [INFO] [talker-1]: process started with pid [18477]
+1747578480.9430933 [talker-1] [INFO] [1747578480.942756071] [demo_node_1]: Publishing: 'Hello World: 1'
+1747578481.9748776 [talker-1] [INFO] [1747578481.974499647] [demo_node_1]: Publishing: 'Hello World: 2'
+1747578481.9806874 [INFO] [talker-1]: sending signal 'SIGINT' to process[talker-1]
+1747578481.9810119 [talker-1] [INFO] [1747578481.980879116] [rclcpp]: signal_handler(signum=2)
+1747578482.0871773 [INFO] [talker-1]: process has finished cleanly [pid 18477]
+1747578482.0936887 [INFO] [launch]: All log files can be found below /home/godoistvan/.ros/log/2025-05-18-16-27-59-875230-DESKTOP-4F4225M-18429
+1747578482.0938544 [INFO] [launch]: Default logging verbosity is set to INFO
+1747578482.1016717 [INFO] [talker-2]: process started with pid [18511]
+1747578482.1018105 [INFO] [talker-3]: process started with pid [18520]
+1747578482.1018729 [INFO] [talker-4]: process started with pid [18523]
+1747578483.1397159 [talker-2] [INFO] [1747578483.139447994] [demo_node_0]: Publishing: 'Hello World: 1'
+1747578483.1472332 [talker-3] [INFO] [1747578483.146785204] [demo_node_1]: Publishing: 'Hello World: 1'
+1747578483.1504035 [talker-4] [INFO] [1747578483.150214504] [demo_node_2]: Publishing: 'Hello World: 1'
+1747578484.1700454 [talker-2] [INFO] [1747578484.169782164] [demo_node_0]: Publishing: 'Hello World: 2'
+1747578484.1773274 [talker-3] [INFO] [1747578484.177027354] [demo_node_1]: Publishing: 'Hello World: 2'
+1747578484.1806371 [talker-4] [INFO] [1747578484.180485612] [demo_node_2]: Publishing: 'Hello World: 2'
+1747578485.1989434 [talker-2] [INFO] [1747578485.198694006] [demo_node_0]: Publishing: 'Hello World: 3'
+1747578485.2062263 [talker-3] [INFO] [1747578485.205962042] [demo_node_1]: Publishing: 'Hello World: 3'
+1747578485.2095716 [talker-4] [INFO] [1747578485.209392600] [demo_node_2]: Publishing: 'Hello World: 3'
+1747578485.7781825 [INFO] [talker-4]: sending signal 'SIGINT' to process[talker-4]
+1747578485.7786279 [INFO] [talker-3]: sending signal 'SIGINT' to process[talker-3]
+1747578485.7789018 [INFO] [talker-2]: sending signal 'SIGINT' to process[talker-2]
+1747578485.7791011 [talker-4] [INFO] [1747578485.778399916] [rclcpp]: signal_handler(signum=2)
+1747578485.7792923 [talker-3] [INFO] [1747578485.778729077] [rclcpp]: signal_handler(signum=2)
+1747578485.7794547 [talker-2] [INFO] [1747578485.778991536] [rclcpp]: signal_handler(signum=2)
+1747578485.8875456 [INFO] [talker-4]: process has finished cleanly [pid 18523]
+1747578485.8882987 [INFO] [talker-3]: process has finished cleanly [pid 18520]
+1747578485.8886933 [INFO] [talker-2]: process has finished cleanly [pid 18511]
+1747578485.8912454 [INFO] [launch]: All log files can be found below /home/godoistvan/.ros/log/2025-05-18-16-27-59-875230-DESKTOP-4F4225M-18429
+1747578485.8913410 [INFO] [launch]: Default logging verbosity is set to INFO
+1747578489.8730597 [INFO] [talker-5]: process started with pid [18649]
+1747578489.9940970 [INFO] [talker-5]: sending signal 'SIGINT' to process[talker-5]
+1747578489.9945190 [talker-5] [INFO] [1747578489.994350503] [rclcpp]: signal_handler(signum=2)
+1747578490.0992301 [INFO] [talker-5]: process has finished cleanly [pid 18649]
+1747578490.1016288 [INFO] [launch]: All log files can be found below /home/godoistvan/.ros/log/2025-05-18-16-27-59-875230-DESKTOP-4F4225M-18429
+1747578490.1017289 [INFO] [launch]: Default logging verbosity is set to INFO
+1747578490.1028588 [INFO] [echo-6]: process started with pid [18661]
+1747578490.1033478 [echo-6] hello_world
+1747578490.1037300 [INFO] [echo-6]: process has finished cleanly [pid 18661]
+1747578490.1064858 [INFO] [launch]: All log files can be found below /home/godoistvan/.ros/log/2025-05-18-16-27-59-875230-DESKTOP-4F4225M-18429
+1747578490.1065688 [INFO] [launch]: Default logging verbosity is set to INFO
+1747578490.1087406 [INFO] [talker-7]: process started with pid [18664]
+1747578490.1088543 [INFO] [ros2-8]: process started with pid [18666]
+1747578491.1485000 [talker-7] [INFO] [1747578491.148201793] [demo_node]: Publishing: 'Hello World: 1'
+1747578492.1773560 [talker-7] [INFO] [1747578492.177067758] [demo_node]: Publishing: 'Hello World: 2'
+1747578493.1125412 [INFO] [ros2-8]: sending signal 'SIGINT' to process[ros2-8]
+1747578493.1128633 [INFO] [talker-7]: sending signal 'SIGINT' to process[talker-7]
+1747578493.1131065 [talker-7] [INFO] [1747578493.112991071] [rclcpp]: signal_handler(signum=2)
+1747578493.2184684 [INFO] [talker-7]: process has finished cleanly [pid 18664]
+1747578493.2506626 [INFO] [ros2-8]: process has finished cleanly [pid 18666]
+1747578493.2567596 [INFO] [launch]: All log files can be found below /home/godoistvan/.ros/log/2025-05-18-16-27-59-875230-DESKTOP-4F4225M-18429
+1747578493.2568786 [INFO] [launch]: Default logging verbosity is set to INFO
+1747578493.2587998 [INFO] [parameter_blackboard-9]: process started with pid [18727]
+1747578493.2712939 [parameter_blackboard-9] [INFO] [1747578493.271057073] [demo_node_1]: Parameter blackboard node named '/demo_node_1' ready, and serving '5' parameters already!
+1747578493.5194488 [INFO] [parameter_blackboard-9]: sending signal 'SIGINT' to process[parameter_blackboard-9]
+1747578493.5197930 [parameter_blackboard-9] [INFO] [1747578493.519657482] [rclcpp]: signal_handler(signum=2)
+1747578493.6240921 [INFO] [parameter_blackboard-9]: process has finished cleanly [pid 18727]
