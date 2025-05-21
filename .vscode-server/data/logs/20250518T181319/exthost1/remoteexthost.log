@@ -282,3 +282,10 @@
 2025-05-18 19:11:39.241 [warning] [Decorations] CAPPING events from decorations provider vscode.git 446
 2025-05-18 19:11:44.272 [warning] [Decorations] CAPPING events from decorations provider vscode.git 446
 2025-05-18 19:11:49.301 [warning] [Decorations] CAPPING events from decorations provider vscode.git 446
+2025-05-18 19:11:52.173 [warning] [Decorations] CAPPING events from decorations provider vscode.git 446
+2025-05-18 19:11:54.337 [warning] [Decorations] CAPPING events from decorations provider vscode.git 446
+2025-05-18 19:11:58.024 [warning] [Decorations] CAPPING events from decorations provider vscode.git 446
+2025-05-18 19:11:58.748 [warning] [Decorations] CAPPING events from decorations provider vscode.git 446
+2025-05-18 19:25:12.381 [info] Extension host terminating: received terminate message from renderer
+2025-05-18 19:25:12.382 [info] Lock '/home/godoistvan/.vscode-server/data/User/workspaceStorage/60bc46e1e45b313ee21d72c44930862f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-05-18 19:25:12.419 [info] Extension host with pid 51546 exiting with code 0

@@ -1,60 +1,20 @@
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, TimerAction
+from launch.actions import DeclareLaunchArgument, TimerAction, ExecuteProcess
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
-
 def generate_launch_description():
-    turtle_arg = DeclareLaunchArgument(
-        'turtle',
-        default_value='turtle1',
-        description='Name of the turtle to draw'
-    )
-    order_arg = DeclareLaunchArgument(
-        'order',
-        default_value='3',
-        description='Order of the Koch snowflake'
-    )
-    side_length_arg = DeclareLaunchArgument(
-        'side_length',
-        default_value='5.0',
-        description='Length of each side'
-    )
-    start_x_arg = DeclareLaunchArgument(
-        'start_x',
-        default_value='2.0',
-        description='Starting X position'
-    )
-    start_y_arg = DeclareLaunchArgument(
-        'start_y',
-        default_value='7.0',
-        description='Starting Y position'
-    )
-    theta_arg = DeclareLaunchArgument(
-        'theta',
-        default_value='0.0',
-        description='Starting orientation (radians)'
-    )
-    pen_r_arg = DeclareLaunchArgument(
-        'pen_r',
-        default_value='255',
-        description='Pen color red channel (0-255)'
-    )
-    pen_g_arg = DeclareLaunchArgument(
-        'pen_g',
-        default_value='0',
-        description='Pen color green channel (0-255)'
-    )
-    pen_b_arg = DeclareLaunchArgument(
-        'pen_b',
-        default_value='0',
-        description='Pen color blue channel (0-255)'
-    )
-    pen_width_arg = DeclareLaunchArgument(
-        'pen_width',
-        default_value='2',
-        description='Pen width'
-    )
+    turtle_arg = DeclareLaunchArgument('turtle', default_value='turtle1')
+    order_arg = DeclareLaunchArgument('order', default_value='3')
+    side_length_arg = DeclareLaunchArgument('side_length', default_value='5.0')
+    start_x_arg = DeclareLaunchArgument('start_x', default_value='2.0')
+    start_y_arg = DeclareLaunchArgument('start_y', default_value='7.0')
+    theta_arg = DeclareLaunchArgument('theta', default_value='0.0')
+    pen_r_arg = DeclareLaunchArgument('pen_r', default_value='255')
+    pen_g_arg = DeclareLaunchArgument('pen_g', default_value='128')
+    pen_b_arg = DeclareLaunchArgument('pen_b', default_value='128')
+    pen_width_arg = DeclareLaunchArgument('pen_width', default_value='2')
+
     turtle = LaunchConfiguration('turtle')
     order = LaunchConfiguration('order')
     side_length = LaunchConfiguration('side_length')
@@ -65,10 +25,20 @@ def generate_launch_description():
     pen_g = LaunchConfiguration('pen_g')
     pen_b = LaunchConfiguration('pen_b')
     pen_width = LaunchConfiguration('pen_width')
+
     turtlesim_node = Node(
         package='turtlesim',
         executable='turtlesim_node',
         name='sim'
+    )
+
+    initial_pen_off = ExecuteProcess(
+        cmd=[
+            'ros2', 'service', 'call',
+            '/turtle1/set_pen', 'turtlesim/srv/SetPen',
+            '"{r:255, g:0, b:0, width:2, off:1}"'
+        ],
+        shell=True
     )
 
     koch_node = Node(
@@ -89,10 +59,7 @@ def generate_launch_description():
         }]
     )
 
-    delayed_koch = TimerAction(
-        period=2.0,
-        actions=[koch_node]
-    )
+    delayed_koch = TimerAction(period=1.0, actions=[koch_node])
 
     return LaunchDescription([
         turtle_arg,
@@ -106,5 +73,6 @@ def generate_launch_description():
         pen_b_arg,
         pen_width_arg,
         turtlesim_node,
+        TimerAction(period=0.5, actions=[initial_pen_off]),
         delayed_koch,
     ])

@@ -2,7 +2,7 @@ import math
 import rclpy
 from rclpy.node import Node
 from turtlesim.srv import TeleportAbsolute, TeleportRelative, SetPen
-
+#   ros2 run ros2_course koch_snowflake --ros-args \-p order:=3 -p side_length:=5.0
 class KochSnowflake(Node):
     def __init__(self) -> None:
         super().__init__('koch_snowflake_minimal')

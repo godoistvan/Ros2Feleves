@@ -320,3 +320,30 @@ ros2 param get /koch_snowflake side_length
 ros2 param get /koch_snowflake side_length
 ros2 node list
 ros2 param get /koch_snowflake side_length
+ros2 run turtlesim turtlesim_node
+colcon build --symlink-install
+git add .
+git commit -m "First version"
+git push
+ros2 run turtlesim turtlesim_node
+colcon build --symlink-install
+source /otp/ros/humble/setup.bash
+source ~/ros2_ws/install/setup.bash # Adjust if your workspace name is different
+source ~/ros2_ws/install/setup.bash
+ros2 run ros2_course koch_snowflake --ros-args         -p order:=3 -p side_length:=5.0
+ros2 run ros2_course koch_snowflake --ros-args -p order:=3 -p side_length:=5.0
+colcon build --symlink-install
+ros2 run ros2_course koch_snowflake --ros-args -p order:=3 -p side_length:=5.0
+ros2 run 
+ros2 run ros2_course koch_snowflake --ros-args -p order:=3 -p side_length=5.0
+ros2 run ros2_course koch_snowflake --ros-args -p order:=3 -p side_length:=5.0
+ros2 run ros2_course koch_snowflake 
+source /opt/ros/humble/setup.bash  
+python3 koch_snowflake.py --ros-args -p order:=3 -p side_length:=5.0
+ros2 run ros2_course koch_snowflake --ros-args -p order:=3 -p side_length=5.0
+ros2 run ros2_course koch_snowflake --ros-args -p order:=3 side_length=5.0
+ros2 run ros2_course koch_snowflake --ros-args -p order:=3 side_length:=5.0
+ros2 run ros2_course koch_snowflake order:=3 side_length:=5.0
+ros2 run ros2_course koch_snowflake 
+colcon build --symlink-install
+ros2 run ros2_course koch_snowflake 
